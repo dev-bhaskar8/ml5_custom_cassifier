@@ -1,13 +1,14 @@
 let mobilenet;
 let classifier;
 let video;
-let label = 'Click buttons then train';
+let label = 'Loading model';
 let goodBatti;
 let badBatti;
 let trainButton;
 
 
 function modelReady() {
+	label='Model ready';
   console.log('Model is ready!!!');
 }
 
