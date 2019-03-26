@@ -1,7 +1,7 @@
 let mobilenet;
 let classifier;
 let video;
-let label = 'loading model';
+let label = 'Click buttons then train';
 let goodBatti;
 let badBatti;
 let trainButton;
